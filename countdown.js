@@ -23,7 +23,7 @@ module.exports = React.createClass({
         return {
             automaticRestart: true,
             onFinish:         function () {},
-            onTick:           function () {},
+            onTick:           function (timeRemaining) {},
             pause:            false,
             stop:             false,
             interval:         1000
@@ -89,7 +89,7 @@ module.exports = React.createClass({
             return;
         }
 
-        this.props.onTick();
+        this.props.onTick(time);
 
         //else update the clock time
         this.setState({
