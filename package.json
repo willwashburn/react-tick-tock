@@ -1,0 +1,31 @@
+{
+  "name": "react-tick-tock",
+  "version": "0.0.1",
+  "description": "Simple countdown timer for React",
+  "main": "countdown.js",
+  "dependencies": {
+    "react-timer-mixin": "*"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willwashburn/react-tick-tock"
+  },
+  "keywords": [
+    "react",
+    "countdown",
+    "timer",
+    "tick-tock",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Will Washburn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willwashburn/react-tick-tock/issues"
+  },
+  "homepage": "https://github.com/willwashburn/react-tick-tock"
+}
